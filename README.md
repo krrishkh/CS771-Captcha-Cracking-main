@@ -1,4 +1,4 @@
-```markdown
+
 # CS771 Captcha Cracking Project
 
 ## Overview
