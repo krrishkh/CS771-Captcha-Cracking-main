@@ -122,23 +122,6 @@ def decaptcha(filenames):
 
 ---
 
-## Running in Google Colab
-
-### 1. **Import Data/Folder**
-- **Option 1:** Mount Google Drive:
-    ```
-    from google.colab import drive
-    drive.mount('/content/drive')
-    ```
-- **Option 2:** Zip folder and upload; then unzip:
-    ```
-    !unzip data.zip -d ./data_folder
-    ```
-
-### 2. **Train, Save, and Use Model**
-Follow the code flow above: load data, preprocess, build model, train, save, and run inference.
-
----
 
 ## Notes & Best Practices
 
@@ -159,19 +142,8 @@ Follow the code flow above: load data, preprocess, build model, train, save, and
 
 ## Contact & Credits
 
-Project by: [Your Name or GitHub Handle]
+Project by: [Krrish Khandelwal] | Course Project: CS771 |  Prof. Purushottam Kar (CSE Department, IITK)
 
-Deep learning code adapted and explained for transparency and reproducibility.
 
----
 
-**This README covers every step:**  
-- Data structure  
-- Model architecture and summary  
-- Training and saving  
-- Prediction process  
-- Folder import in Colab  
-- Detailed guidance on function and code
-
-If you follow this, your project will be fully documented, **easy to understand, and reproducible for anyone!**
 ```
