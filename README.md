@@ -123,20 +123,10 @@ def decaptcha(filenames):
 ---
 
 
-## Notes & Best Practices
-
-- Check filenames and cropping coordinates match your dataset structure.
-- Always normalize and resize image appropriately before feeding to the model.
-- Ensure your train and test images cover all possible digit classes.
-- For batch predictions, ensure the function returns a **list of predictions** (not just the last value).
-
----
-
 ## Troubleshooting
 
 - **Model only predicts one class:** Check class balance in training data and preprocessing output shape.
 - **Shape errors:** Confirm images are reshaped as `(batch_size, 100, 100, 1)`.
-- **Colab file path errors:** Always verify image and model paths match Colab's directory structure.
 
 ---
 
